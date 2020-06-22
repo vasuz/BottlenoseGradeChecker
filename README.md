@@ -1,5 +1,5 @@
 # Bottlenose Grade Checker
- A CLI tool to check your grades and recent assignments for courses using Bottlenose.
+ A CLI tool to check your grades and recent assignments for courses using [Bottlenose](https://github.com/CodeGrade/bottlenose).
 
 # Usage
 Build and run (requres [.NET runtime](https://github.com/dotnet/runtime))
