@@ -23,4 +23,4 @@ Example usage (username `hello`, password `world`):
 
 ----
 # Screenshot
-![](https://i.imgur.com/we5lRjo.png)
+![](https://i.imgur.com/6HGB1Jv.png)
