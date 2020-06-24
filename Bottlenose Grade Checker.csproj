@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.14.0" />
+    <PackageReference Include="AngleSharp.XPath" Version="1.1.7" />
     <PackageReference Include="ConsoleTables" Version="2.4.1" />
-    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
-    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-    <PackageReference Include="WebDriverManager" Version="2.9.1" />
   </ItemGroup>
 
   <ItemGroup>

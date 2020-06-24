@@ -13,7 +13,7 @@ namespace BottlenoseGradeChecker
         /// Can be specified in order to bypass credential prompts.
         /// </summary>
         /// <param name="args">Optional username/password input.</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string user;
             string pass;
@@ -30,7 +30,16 @@ namespace BottlenoseGradeChecker
                 pass = new System.Net.NetworkCredential(string.Empty, new Utils().GetPasswordFromConsole("Enter password:")).Password;
             }
 
-            Web.Login(user, pass);
+            try
+            {
+                Web.Login(user, pass).GetAwaiter().GetResult();
+            }
+            catch (ArgumentException)
+            {
+                Console.WriteLine("Login failed. Please verify your username/password and try again.");
+                Main(new string[0]);
+                return;
+            }
             Console.ReadLine();
         }
     }
