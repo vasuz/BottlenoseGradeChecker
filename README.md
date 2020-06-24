@@ -2,7 +2,7 @@
  A CLI tool to check your grades and recent assignments for courses using [Bottlenose](https://github.com/CodeGrade/bottlenose).
 
 # Usage
-Build and run (requres [.NET runtime](https://github.com/dotnet/runtime))
+Build and run (requires [dotnet runtime](https://github.com/dotnet/runtime))
 
     1. dotnet build "Bottlenose Grade Checker.csproj" -c Release -o /app/build
     2. dotnet publish "Bottlenose Grade Checker.csproj" -c Release -o /app/publish
