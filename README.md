@@ -11,7 +11,7 @@
 
 Example usage (username `hello`, password `world`):
 
-`dotnet "Bottlenose Grade Checker.dll" -- hello wbeyq`.
+`dotnet "Bottlenose Grade Checker.dll" -- hello wbeyq`
 
 ----
 # Build Source
